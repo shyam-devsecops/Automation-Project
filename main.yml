@@ -1,8 +1,8 @@
 infra_config = {
   resource_groups = {
     "rg-micro-prod" = {
-      location = "East US"
-      tags     = { Environment = "Dev", ManagedBy = "Terraform" }
+      location = "West US"
+      tags     = { Environment = "Prod", ManagedBy = "Terraform" }
     }
   }
   container_registries = {
